@@ -42,7 +42,7 @@ const Item = ({ item, selectedTags, filter, setFilter }) => {
           <p className="item-price">{item.price.toLocaleString()}원</p>
           <p className="item-rating">
             <Rating rating={item.score} />
-            <span className='rating-number'>({item.score})</span>
+            <span className='rating-number'>{' '}({item.score})</span>
           </p>
         </div>
       )}
